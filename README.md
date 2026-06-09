@@ -11,13 +11,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Standard-green)](https://agentskills.io)
 [![skills.sh](https://img.shields.io/badge/skills.sh-Compatible-blue)](https://skills.sh)
-[![Multi-Runtime](https://img.shields.io/badge/Runtime-Claude%20Code%20·%20Codex%20·%20Cursor%20·%20Hermes-blueviolet)](#安装)
+[![Multi-Runtime](https://img.shields.io/badge/Runtime-Claude%20Code%20·%20Codex%20·%20Cursor%20·%20Hermes-blueviolet)](#installation)
 
 <br>
 
 **每次创建新 Skill 后，只需一行命令，自动产出符合开源社区标准的专业文档。**
 
-<sub>基于开放的 [Agent Skills 协议](https://agentskills.io)，可在 Claude Code、Codex、Cursor、OpenClaw、Hermes Agent、CodeBuddy、Workbuddy、Gemini CLI、OpenCode 等 50+ 兼容 runtime 中运行。</sub>
+<sub>基于开放的 [Agent Skills](https://agentskills.io) 协议，可在 Claude Code、Codex、Cursor、OpenClaw、Hermes Agent、CodeBuddy、Workbuddy、Gemini CLI、OpenCode 等 50+ 兼容 runtime 中运行。</sub>
 
 <br>
 
@@ -25,9 +25,9 @@
 
 <br>
 
-**其他语言 / Other Languages:**
+**其他语言 / Other Languages / 他の言語 / 다른 언어 / Otros Idiomas:**
 
-[English](README_EN.md)
+[English](README_EN.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md)
 
 <br>
 
@@ -169,6 +169,10 @@ npx skills add JUJING-DEEP/github-publisher
 | Cursor | `~/.cursor/skills/github-publisher/` |
 | OpenClaw | `~/.openclaw/workspace/skills/github-publisher/` |
 | Hermes Agent | 跑 `tools/install_hermes_skill.py` |
+| CodeBuddy | `~/.codebuddy/skills/github-publisher/` |
+| Workbuddy | `~/.workbuddy/skills/github-publisher/` |
+| Gemini CLI | `~/.gemini/skills/github-publisher/` |
+| OpenCode | `~/.opencode/skills/github-publisher/` |
 | 其他 runtime | clone 到对应 runtime 的 `skills/` 目录 |
 
 ```bash
@@ -216,13 +220,33 @@ git clone https://github.com/JUJING-DEEP/github-publisher <上面对应的路径
 
 ---
 
+## 支持的平台
+
+| 平台 | 状态 | 安装命令 |
+|------|------|---------|
+| Claude Code | ✅ 完全支持 | `/skill add JUJING-DEEP/github-publisher` |
+| Codex | ✅ 完全支持 | `npx skills add JUJING-DEEP/github-publisher` |
+| Cursor | ✅ 完全支持 | `npx skills add JUJING-DEEP/github-publisher` |
+| OpenClaw | ✅ 完全支持 | `npx skills add JUJING-DEEP/github-publisher` |
+| Hermes Agent | ✅ 完全支持 | 参考手动安装 |
+| CodeBuddy | ✅ 完全支持 | 参考手动安装 |
+| Workbuddy | ✅ 完全支持 | 参考手动安装 |
+| Gemini CLI | ✅ 完全支持 | 参考手动安装 |
+| OpenCode | ✅ 完全支持 | 参考手动安装 |
+| 其他 | ✅ 兼容 | 参考 [Agent Skills 协议](https://agentskills.io) |
+
+---
+
 ## 项目结构
 
 ```
 github-publisher/
 ├── SKILL.md                         # 核心 Skill 逻辑
-├── README.md                        # 本文档
-├── README_EN.md                     # English version
+├── README.md                        # 本文档（中文）
+├── README_EN.md                     # English 版本
+├── README_JA.md                     # 日本語 版本
+├── README_KO.md                     # 한국어 版本
+├── README_ES.md                     # Español 版本
 ├── LICENSE                          # MIT License
 ├── assets/
 │   └── demo.gif                     # 功能演示动画
@@ -280,7 +304,7 @@ github-publisher/
 
 为了让 Skill 能够推送代码到 GitHub，你需要配置 GitHub Personal Access Token：
 
-### Claude Code
+### Claude Code / Codex / Cursor
 
 1. 创建 GitHub Personal Access Token：
    - 访问 https://github.com/settings/tokens
@@ -298,6 +322,10 @@ git remote add origin https://YOUR_TOKEN@github.com/JUJING-DEEP/repo.git
 ```bash
 gh auth login
 ```
+
+### Hermes Agent
+
+参考 [Hermes Agent 文档](https://hermes.agent/docs/github-integration) 配置 `GITHUB_TOKEN` 环境变量。
 
 ### 其他 Runtime
 
@@ -352,23 +380,3 @@ MIT — 随便用，随便改，随便分发。
 MIT License © [JUJING-DEEP](https://github.com/JUJING-DEEP)
 
 </div>
-
----
-
-## English
-
-> *One command to auto-generate professional GitHub documentation for any Claude Skill.*
-
-**GitHub Publisher** is an [Agent Skill](https://agentskills.io) that automates README generation for Claude Skills. Works in Claude Code, Codex, Cursor, OpenClaw, Hermes Agent, CodeBuddy, Workbuddy, Gemini CLI, OpenCode, and 50+ skills-compatible runtimes.
-
-**Install** (cross-runtime, auto-detects your agent): `npx skills add JUJING-DEEP/github-publisher`
-
-**Usage:**
-```
-/publish
-/publish skills/my-new-skill
-```
-
-The skill reads your Skill's code, generates a professional README in high-star project style, and pushes to GitHub — all with one command.
-
-See the Chinese README above for full documentation and methodology.

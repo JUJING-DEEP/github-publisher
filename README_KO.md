@@ -240,6 +240,18 @@ github-publisher/
 
 ---
 
+## 저자 소개
+
+**거대고래r** — AI Native Developer · 전 플랫폼 동일 아이디
+
+| 플랫폼 | 링크 |
+|------|------|
+| 🐧 WeChat | **거대고래r** (WeChat에서 검색) |
+| 𝕏 Twitter | [@JUJING_DEEP](https://x.com/JUJING_DEEP) |
+| GitHub | [JUJING-DEEP](https://github.com/JUJING-DEEP) |
+
+> QR코드는 assets/wechat-qrcode.jpg에 있습니다 ↓
+
 ## 라이선스
 
 MIT — 자유롭게 사용, 수정, 배포하세요.

@@ -320,12 +320,15 @@ Writing README after creating a new Skill is the most tedious repetitive work. G
 
 ## About Author
 
-**JUJING-DEEP** — AI Native Developer
+**巨鲸r** — AI Native Developer · All Platforms
 
 | Platform | Link |
 |------|------|
+| 🐧 WeChat | **巨鲸r** (Search in WeChat) |
 | 𝕏 Twitter | [@JUJING_DEEP](https://x.com/JUJING_DEEP) |
 | GitHub | [JUJING-DEEP](https://github.com/JUJING-DEEP) |
+
+> Scan the QR code in assets/wechat-qrcode.jpg to follow on WeChat ↓
 
 ## License
 

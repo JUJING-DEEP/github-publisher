@@ -358,12 +358,22 @@ gh auth login
 
 ## 关于作者
 
-**JUJING-DEEP** — AI Native Developer
+**巨鲸r** — AI Native Developer · 全网同号
 
 | 平台 | 链接 |
 |------|------|
+| 🐧 公众号 | **巨鲸r** |
 | 𝕏 Twitter | [@JUJING_DEEP](https://x.com/JUJING_DEEP) |
 | GitHub | [JUJING-DEEP](https://github.com/JUJING-DEEP) |
+
+> 扫码关注公众号，获取更多 AI 技能和工具分享 ↓
+> <img src="assets/wechat-qrcode.jpg" alt="巨鲸r 公众号二维码" width="200"/>
+
+---
+
+**其他语言 / Other Languages / 他の言語 / 다른 언어 / Otros Idiomas:**
+
+[English](README_EN.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Español](README_ES.md)
 
 ## 许可证
 

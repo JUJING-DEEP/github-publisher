@@ -241,6 +241,18 @@ github-publisher/
 
 ---
 
+## Sobre el autor
+
+**巨鲸r** — AI Native Developer · Mismo nombre en todas las plataformas
+
+| Plataforma | Enlace |
+|------|------|
+| 🐧 WeChat | **巨鲸r** (Buscar en WeChat) |
+| 𝕏 Twitter | [@JUJING_DEEP](https://x.com/JUJING_DEEP) |
+| GitHub | [JUJING-DEEP](https://github.com/JUJING-DEEP) |
+
+> El código QR está en assets/wechat-qrcode.jpg ↓
+
 ## Licencia
 
 MIT — Úsalo libremente, modifícalo libremente, distribúyelo libremente.

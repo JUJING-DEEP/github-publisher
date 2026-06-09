@@ -240,6 +240,18 @@ github-publisher/
 
 ---
 
+## 著者について
+
+**巨鯨r** — AI Native Developer · 全プラットフォーム同名
+
+| プラットフォーム | リンク |
+|------|------|
+| 🐧 WeChat | **巨鯨r**（WeChatで検索） |
+| 𝕏 Twitter | [@JUJING_DEEP](https://x.com/JUJING_DEEP) |
+| GitHub | [JUJING-DEEP](https://github.com/JUJING-DEEP) |
+
+> QRコードは assets/wechat-qrcode.jpg にあります ↓
+
 ## ライセンス
 
 MIT — 自由に使ってください、自由に変えてください、自由롭게配布してください。
